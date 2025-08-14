@@ -1,46 +1,28 @@
-eam_MTU_DesignQA
+# **Team_MTU_DesignQA**  
+Official submission for **ASME Prob2_DesignQA Hackathon 2025** by **Team_MTU**.  
 
-Official submission for ASME Prob2_DesignQA Hackathon 2025 by Team_MTU.
+---
 
-Project Overview
+## **📌 Project Overview**  
+This repository contains our solutions for **ASME Prob2_DesignQA Hackathon 2025**, covering all six **DesignQA benchmark subsets**:  
 
-This repository contains our solutions for ASME Prob2_DesignQA Hackathon 2025, covering all six DesignQA benchmark subsets:
+1. **Retrieval**  
+2. **Compilation**  
+3. **Definition**  
+4. **Presence**  
+5. **Dimension**  
+6. **Functional Performance**  
 
-Retrieval
+Each subset runs **independently** and produces outputs in the **required submission format**.  
 
-Compilation
+---
 
-Definition
+## **🔑 API Key Setup**  
+This project uses the **OpenAI API**.  
+For security reasons, **no API key is included** in this repository.  
 
-Presence
+You must set your **own** API key as an environment variable named `OPENAI_API_KEY` before running any scripts.  
 
-Dimension
-
-Functional Performance
-
-The code for each subset runs independently and produces outputs in the required submission format.
-
-API Key Setup
-
-This project uses the OpenAI API. For security reasons, no API key is included in this repository.
-You will need to set your own API key in an environment variable named OPENAI_API_KEY before running any scripts.
-
-Mac / Linux (Terminal):
-
+### **Mac / Linux (Terminal)**  
+```bash
 export OPENAI_API_KEY="your_api_key_here"
-
-
-Windows PowerShell:
-
-setx OPENAI_API_KEY "your_api_key_here"
-
-
-(Restart PowerShell after running this command.)
-
-Google Colab:
-
-import os
-os.environ["OPENAI_API_KEY"] = "your_api_key_here"
-
-
-Once the key is set, run the corresponding Python script or notebook for the desired subset (e.g., rule_retrieval.py or rule_retrieval.ipynb).
