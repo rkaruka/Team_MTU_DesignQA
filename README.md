@@ -27,8 +27,5 @@ You must set your **own** API key as an environment variable named `OPENAI_API_K
 ```bash
 export OPENAI_API_KEY="your_api_key_here"
 
-#### **Google Coolab**  
-import os
-os.environ["OPENAI_API_KEY"] = "your_api_key_here"
 
 
