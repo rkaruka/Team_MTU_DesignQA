@@ -1,5 +1,5 @@
 # **Team_MTU_DesignQA**  
-Official submission for **ASME Prob2_DesignQA Hackathon 2025** by **Team_MTU**.  
+Official Submission for **ASME Prob2_DesignQA Hackathon 2025** by **Team_MTU**.  
 
 ---
 
