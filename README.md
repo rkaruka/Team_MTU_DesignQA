@@ -3,7 +3,7 @@ Official submission for **ASME Prob2_DesignQA Hackathon 2025** by **Team_MTU**.
 
 ---
 
-## **📌 Project Overview**  
+## **Project Overview**  
 This repository contains our solutions for **ASME Prob2_DesignQA Hackathon 2025**, covering all six **DesignQA benchmark subsets**:  
 
 1. **Retrieval**  
@@ -17,7 +17,7 @@ Each subset runs **independently** and produces outputs in the **required submis
 
 ---
 
-## **🔑 API Key Setup**  
+## **API Key Setup**  
 This project uses the **OpenAI API**.  
 For security reasons, **no API key is included** in this repository.  
 
@@ -26,3 +26,9 @@ You must set your **own** API key as an environment variable named `OPENAI_API_K
 ### **Mac / Linux (Terminal)**  
 ```bash
 export OPENAI_API_KEY="your_api_key_here"
+
+### **Google Coolab**  
+import os
+os.environ["OPENAI_API_KEY"] = "your_api_key_here"
+
+
