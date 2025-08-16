@@ -1,0 +1,4 @@
+DesignQA Results
+Subset: Functional_Performance
+Num Questions: 16
+ACC: 0.812500
