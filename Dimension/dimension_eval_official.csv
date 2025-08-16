@@ -1,0 +1,346 @@
+ground_truth,model_prediction,dimension_type,explanation
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""1549.4 mm"",
+  ""rule_id"": ""V.1.2"",
+  ""explanation"": ""The dimension labeled as '1549.4 mm' represents the wheelbase, which exceeds the minimum requireme Answer: yes",direct,The image shows the dimension of the cars wheelbase and it is clearly greater than the rules minimum wheelbase.
+no,"Explanation: ```json
+{
+  ""answer"": ""No"",
+  ""measured_value"": ""1524.9 mm"",
+  ""rule_id"": ""V.1.2"",
+  ""explanation"": ""The dimension labeled as '1524.9 mm' is the wheelbase, which is less than the required minimum of 1 Answer: yes",direct,The image shows the dimension of the cars wheelbase and it is clearly less than the rules minimum wheelbase.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""V.1.2"",
+  ""explanation"": ""The drawing shows the overall length as 3202.4 mm, but the wheelbase is not specified.  Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""406.4 mm"",
+  ""rule_id"": ""V.4.1"",
+  ""explanation"": ""The drawing shows 'R203.2', which indicates a radius of 203.2 mm. The diameter is calculated as 2 × Answer: no",direct,The image shows the radius of wheels which (multiplied by 2) is greater than rules minimum wheel diameter.
+no,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""201.2 mm"",
+  ""rule_id"": ""V.4.1"",
+  ""explanation"": ""The drawing shows a wheel radius of R100.6, which gives a diameter of 201.2 mm. This meets the mini Answer: no",direct,The image shows radius of wheels which (multiplied by 2) is less than rules minimum wheel diameter. 
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""V.4.1"",
+  ""explanation"": ""The drawing does not provide the wheel diameter dimension, so compliance with the wheel Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""No"",
+  ""measured_value"": ""166.1 mm"",
+  ""rule_id"": ""V.1.4.2"",
+  ""explanation"": ""The dimension labeled '166.1' mm represents the distance to the ground below the Lower Side Impact Answer: yes",direct,The radius of tire minus distance from lower side impact structure to center of wheel is the ground clearance/ride height. This value is less than the rules required maximum. 
+no,"Explanation: ```json
+{
+  ""answer"": ""No"",
+  ""measured_value"": ""100.3 mm"",
+  ""rule_id"": ""V.1.4.2"",
+  ""explanation"": ""The dimension labeled '100.3' mm represents the distance to the ground below the Lower Side Impact Answer: yes",direct,The radius of tire minus distance from lower side impact structure to center of wheel is the ground clearance/ride height. This value is greater than the rules required maximum. 
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""V.1.4.2"",
+  ""explanation"": ""The drawing does not provide the dimension for the distance to the ground below the L Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""239.48 mm"",
+  ""rule_id"": ""F.5.7.5"",
+  ""explanation"": ""The dimension '239.48 mm' is the horizontal distance from the rear surface of the Front Hoop to  Answer: yes",direct,The distance from the front most face of the steering wheel to rear most face of front hoop is greater than the rules required minimum.
+no,"Explanation: ```json
+{
+  ""answer"": ""No"",
+  ""measured_value"": ""261.57 mm"",
+  ""rule_id"": ""F.5.7.5"",
+  ""explanation"": ""The dimension '261.57 mm' is the horizontal distance from the rear surface of the Front Hoop to t Answer: no",direct,The distance from the front most face of the steering wheel to rear most face of front hoop is less than the rules required minimum.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""F.5.7.5"",
+  ""explanation"": ""The drawing does not provide the specific dimension from the rear surface of the Fron Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""8.88°"",
+  ""rule_id"": ""F.5.7.6"",
+  ""explanation"": ""The dimension relevant to the rule is the inclination of the Front Hoop above the Upper Side Impact  Answer: cannot be determined",direct,The angle of the front hoop is less than the rules required maximum.
+no,"Explanation: ```json
+{
+  ""answer"": ""No"",
+  ""measured_value"": ""21.5°"",
+  ""rule_id"": ""F.5.7.6"",
+  ""explanation"": ""The dimension '21.5°' is shown for the Front Hoop inclination, which exceeds the maximum allowed 20°  Answer: cannot be determined",direct,The angle of the front hoop is greater than the rules required maximum.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""F.5.7.6"",
+  ""explanation"": ""The drawing does not provide the angle of inclination for the Front Hoop above the Up Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""122.54 mm"",
+  ""rule_id"": ""F.5.9.4"",
+  ""explanation"": ""The dimension '122.54 mm' indicates the attachment point of the Main Hoop Braces is 122.54 mm be Answer: no",direct,"According to rule F.5.9.4, the main hoop braces must be attached 160 mm or less below the top most surface of the main hoop. The image shows that the main hoop braces is attached 122.54 + 12.7 = 135.24 mm below the top surface of the main hoop. Therefore, this design complies with the rule."
+no,"Explanation: ```json
+{
+  ""answer"": ""No"",
+  ""measured_value"": ""161.06 mm"",
+  ""rule_id"": ""F.5.9.4"",
+  ""explanation"": ""The dimension '161.06 mm' is the distance below the top most surface of the Main Hoop where the M Answer: no",direct,"According to rule F.5.9.4, the main hoop braces must be attached 160 mm or less below the top most surface of the main hoop. The image shows that the main hoop braces is attached 161.06 + 12.7 = 173.76 mm below the top surface of the main hoop. Therefore, this design violates the rule."
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""F.5.9.4"",
+  ""explanation"": ""The drawing does not provide the specific dimension for the attachment point of the M Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""37.78°"",
+  ""rule_id"": ""F.5.9.5"",
+  ""explanation"": ""The included angle formed by the Main Hoop and the Main Hoop Braces is labeled as 37.78°, which is  Answer: cannot be determined",direct,"F.5.9 says: The included angle formed by the Main Hoop and the Main Hoop Braces must be 30° or more, and this image shows an angle of 37 degrees."
+no,"Explanation: ```json
+{
+  ""answer"": ""No"",
+  ""measured_value"": ""28.76°"",
+  ""rule_id"": ""F.5.9.5"",
+  ""explanation"": ""The included angle formed by the Main Hoop and the Main Hoop Braces is labeled as 28.76°, which is l Answer: cannot be determined",direct,"F.5.9 says: The included angle formed by the Main Hoop and the Main Hoop Braces must be 30° or more, and this image shows an angle of 28.76 degrees."
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""F.5.9.5"",
+  ""explanation"": ""The drawing does not provide the angle between the Main Hoop and the Main Hoop Braces Answer: cannot be determined",scale,
+no,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""F.6.3.4"",
+  ""explanation"": ""The drawing does not provide a dimension for the attachment point of the Front Hoop B Answer: cannot be determined",direct,F.6.3.4 says the front hoop braces can't be more than 50mm from the top of the front hoop. The drawing shows the front hoop braces 55mm from the top of the front hoop.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""F.6.3.4"",
+  ""explanation"": ""The drawing does not provide a dimension for the attachment point of the Front Hoop B Answer: cannot be determined",direct,F.6.3.4 says the front hoop braces can't be more than 50mm from the top of the front hoop. The drawing shows the front hoop braces 28.8mm from the top of the front hoop.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""F.6.3.4"",
+  ""explanation"": ""The drawing does not provide the specific dimension for the attachment point of the F Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""25.00 mm"",
+  ""rule_id"": ""F.3.4.1"",
+  ""explanation"": ""The dimension '25.00 mm' is labeled on the drawing, matching the minimum outside diameter require Answer: no",direct,F.3.2.1g says the main hoop must meet size A requirements - 25mm outer diameter. The drawing shows the required 25mm outer diameter.
+no,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""F.5.8.3"",
+  ""explanation"": ""The drawing does not provide the angle measurement for the Main Hoop relative to vert Answer: cannot be determined",direct,F.3.2.1g says the main hoop must meet size A requirements - 25mm outer diameter. The drawing shows the outer diameter of the main hoop is only 24.3mm
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""F.5.8.3"",
+  ""explanation"": ""The drawing does not provide the angle measurement for the Main Hoop relative to vert Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""T.7.6"",
+  ""explanation"": ""The drawing does not provide any dimension related to the width of an aerodynamic devic Answer: cannot be determined",direct,F.6.4.4b says the upper side impact member has to be more than 240mm above and less than 320mm above the low side impact member. The drawing shows the upper side impact member between 277.15mm and 309.74mm above the low side impact member.
+no,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""T.7.6"",
+  ""explanation"": ""The drawing does not provide a dimension related to the width of any aerodynamic device Answer: cannot be determined",direct,F.6.4.4b says the upper side impact member has to be more than 240mm above and less than 320mm above the low side impact member. The drawing shows the lowest point of the upper side impact member is only 231.56mm above the low side impact member.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""T.7.6"",
+  ""explanation"": ""The drawing does not provide a dimension for the width of any aerodynamic device in pla Answer: cannot be determined",scale,
+yes,"Explanation: I'm sorry, but I can't determine compliance from the images provided. Answer: cannot be determined",direct,F.3.2.1.h says the main hoop bracing must be a size B tube - 25mm minimum diameter. The drawing shows the main hoop bracing has a diameter of 25.4mm.
+no,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""23.43 mm"",
+  ""rule_id"": ""F.3.4.1"",
+  ""explanation"": ""The dimension '23.43 mm' is shown, but it is unclear which specific rule require Answer: no",direct,F.3.2.1.h says the main hoop bracing must be a size B tube - 25mm minimum diameter. The drawing shows the main hoop bracing has a diameter of only 23.43mm.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""F.5.8.3"",
+  ""explanation"": ""The drawing does not provide the angle of the Main Hoop relative to vertical, which i Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""No"",
+  ""measured_value"": ""3.18 mm"",
+  ""rule_id"": ""T.5.2.7"",
+  ""explanation"": ""The dimension '3.18 mm' is shown on the drawing, which is the width of the scatter shield. The rule Answer: yes",direct,T.5.2.7.a says the chain drive scatter shief must be at least 2.66mm thick steel. The drawing shows a thickness of 3.18mm and the question confirms the material is steel.
+no,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""2.56 mm"",
+  ""rule_id"": ""T.5.2.7"",
+  ""explanation"": ""The drawing shows a dimension labeled '2.56', but it is unclear if this is the wi Answer: yes",direct,T.5.2.7.a says the chain drive scatter shief must be at least 2.66mm thick steel. The drawing shows a thickness of only 2.56mm.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""T.5.2.7"",
+  ""explanation"": ""The drawing does not provide the width of the chain or the scatter shield, which is n Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""66.45 mm"",
+  ""rule_id"": ""T.5.2.7"",
+  ""explanation"": ""The minimum width of the scatter shield is 66.45 mm, which is three times the chain width of 22.1 Answer: yes",direct,The drawing shows dimensions for the total width of the scatter shield and for the edge to the center of the sprocket. Since the dimension to the center of the sprocket is half of the dimension of the width of the scatter shield this is correct and rules compliant.
+no,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""66.45 mm"",
+  ""rule_id"": ""T.5.2.7"",
+  ""explanation"": ""The dimension relevant to the rule is the width of the scatter shield. The drawing shows '22.15'  Answer: yes",direct,The drawing shows dimensions for the total width of the scatter shield and for the edge to the center of the sprocket. Since the dimension to the center of the sprocket is not half of the dimension of the width of the scatter shield this is not correct and not rules compliant.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""T.5.2.7"",
+  ""explanation"": ""The drawing does not provide specific dimensions for the chain width or the scatter s Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""44.3 mm"",
+  ""rule_id"": ""T.5.2.7"",
+  ""explanation"": ""The dimension '44.3 mm' is shown, but it is unclear if this is the width of the s Answer: yes",direct,The design is compliant. We are told the chain is 13 mm wide and the scatter shield must be at least 3x as wide. The drawing shows the dimension of the width of the scatter shield is 44.3 mm.
+no,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""38.00 mm"",
+  ""rule_id"": ""T.5.2.7"",
+  ""explanation"": ""The drawing shows a dimension labeled '38.00' mm, but it does not specify the wi Answer: yes",direct,The design is not compliant. We are told the chain is 13 mm wide and the scatter shield must be at least 3x as wide. The drawing shows the dimension of the width of the scatter shield is 38 mm which is less than 3*13mm.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""T.5.2.7"",
+  ""explanation"": ""The drawing does not provide the thickness of the scatter shield, which is required t Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""3.41 mm"",
+  ""rule_id"": ""T.8.2.4"",
+  ""explanation"": ""The dimension '3.41 mm' indicates the projection of threads from the lock nut, which meets the req Answer: yes",direct,The rules require a minimum of 3 threads showing for critical fasteners. Since there is 1 thread per millimeter and we have a extended bolt length of over 3mm we are rules compliant.
+no,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""0.9 mm"",
+  ""rule_id"": ""T.8.2.4"",
+  ""explanation"": ""The drawing shows a dimension of 0.9 mm, but it is unclear if this represents the  Answer: yes",direct,This is not compliant with the rules since this critical fastener only has one thread showing and the rules require a minimum of 3 threads.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""T.8.2.4"",
+  ""explanation"": ""The drawing does not provide the number of threads projecting from the lock nut, whic Answer: cannot be determined",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""696.21 mm"",
+  ""rule_id"": ""T.7.5"",
+  ""explanation"": ""The dimension '696.21 mm' is the length forward of the front tires, which is within the 700 mm lim Answer: yes",direct,"The rule states that no part of any aerodynamic device can be more than 700 mm forward of the fronts of the front tires. In the drawing, the front of the front wing is 696.21 mm (less than 700 mm) in front of the fronts of the front tires. Therefore, this design is rule compliant. "
+no,"Explanation: ```json
+{
+  ""answer"": ""No"",
+  ""measured_value"": ""705.28 mm"",
+  ""rule_id"": ""T.7.5"",
+  ""explanation"": ""The dimension '705.28 mm' exceeds the maximum allowed 700 mm forward of the fronts of the front tir Answer: no",direct,"The rule states that no part of any aerodynamic device can be more than 700 mm forward of the fronts of the front tires. In the drawing, the front of the front wing is 705.28 mm (less than 700 mm) in front of the fronts of the front tires. Therefore, this design is rule compliant. "
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""4000.3 mm"",
+  ""rule_id"": ""T.7.5"",
+  ""explanation"": ""The drawing shows the overall length as '4000.3 mm', but does not provide specifi Answer: no",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""244.66 mm"",
+  ""rule_id"": ""T.7.5"",
+  ""explanation"": ""The dimension '244.66 mm' is the distance rearward of the rear tires, which is within the 250 mm l Answer: yes",direct,T.7.5.b says no part of the rear aero can be more than 250 mm behind the rear of the rear tires. The drawing shows the rear wing is 245 mm behind the rear tires.
+no,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""261.11 mm"",
+  ""rule_id"": ""T.7.5"",
+  ""explanation"": ""The dimension '261.11 mm' is the distance rearward of the rear tires, which is within the 250 mm l Answer: yes",direct,T.7.5.b says no part of the rear aero can be more than 250 mm behind the rear of the rear tires. The drawing shows the rear wing is 261 mm behind the rear tires.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""4000.3 mm"",
+  ""rule_id"": ""T.7.5"",
+  ""explanation"": ""The dimension '4000.3 mm' is the total length of the vehicle, not the specific ae Answer: no",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""16.44 mm"",
+  ""rule_id"": ""T.7.6.1"",
+  ""explanation"": ""The dimension '16.44 mm' is shown, but the drawing does not provide enough infor Answer: yes",direct,T.7.6.1 says the aero bodywork in front of the front wheel axis must be within the outside of the front tires. The drawing shows the whole front wing is within the outside of the tires.
+no,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""193.31 mm"",
+  ""rule_id"": ""T.7.6.1"",
+  ""explanation"": ""The dimension '193.31 mm' is the distance inboard of the vertical plane parallel to the centerli Answer: yes",direct,T.7.6.1 says the aero bodywork in front of the front wheel axis must be within the outside of the front tires. The drawing shows part of the front wing is outside of the tires.
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""4000.3 mm"",
+  ""rule_id"": ""T.7.6"",
+  ""explanation"": ""The drawing shows a dimension of 4000.3 mm, but it does not specify the width of  Answer: no",scale,
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""23.79 mm"",
+  ""rule_id"": ""T.7.6"",
+  ""explanation"": ""The dimension '23.79 mm' is shown, but it is unclear what specific part of the aer Answer: yes",direct,"T.7.6.3 says that aero bodywork behind the rear wheel axis must be within the Rear Aerodynamic Zone, defined as behind the driver headrest and within the inside of the tires. The drawing shows the entire rear wing is within the defined space."
+no,"Explanation: ```json
+{
+  ""answer"": ""Yes"",
+  ""measured_value"": ""228.85 mm"",
+  ""rule_id"": ""T.7.5"",
+  ""explanation"": ""The dimension '228.85 mm' is the rearward extension of the aerodynamic device, which is within the Answer: yes",direct,"T.7.6.3 says that aero bodywork behind the rear wheel axis must be within the Rear Aerodynamic Zone, defined as behind the driver headrest and within the inside of the tires. The drawing shows part of the rear wing is outside of the tires."
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""4000.3 mm"",
+  ""rule_id"": ""T.7.5"",
+  ""explanation"": ""The drawing shows a total length of 4000.3 mm, but the specific measurement of th Answer: no",scale,
+yes,"Explanation: I'm unable to determine the exact dimensions from the images provided. Please provide the specific dimension text from the drawing that relates to the rule, and I can help assess compliance. Answer: cannot be determined",direct,"T.7.7.1a says any part of the rear aero can't be more than 1200 mm above the ground, the highest part of the rear wing in the drawing is 1195.27 mm above the ground."
+no,"Explanation: I'm sorry, I can't determine the compliance based on the provided images. Answer: cannot be determined",direct,"T.7.7.1a says any part of the rear aero can't be more than 1200 mm above the ground, the highest part of the rear wing in the drawing is 1404.51 mm above the ground."
+yes,"Explanation: ```json
+{
+  ""answer"": ""CANNOT BE DETERMINED"",
+  ""measured_value"": ""N/A"",
+  ""rule_id"": ""T.7.6"",
+  ""explanation"": ""The provided images do not show the specific dimensions related to the width of the aer Answer: cannot be determined",scale,

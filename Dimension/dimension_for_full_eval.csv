@@ -1,0 +1,61 @@
+ground_truth,model_prediction
+yes,yes
+no,yes
+yes,cannot be determined
+yes,no
+no,no
+yes,cannot be determined
+yes,yes
+no,yes
+yes,cannot be determined
+yes,yes
+no,no
+yes,cannot be determined
+yes,cannot be determined
+no,cannot be determined
+yes,cannot be determined
+yes,no
+no,no
+yes,cannot be determined
+yes,cannot be determined
+no,cannot be determined
+yes,cannot be determined
+no,cannot be determined
+yes,cannot be determined
+yes,cannot be determined
+yes,no
+no,cannot be determined
+yes,cannot be determined
+yes,cannot be determined
+no,cannot be determined
+yes,cannot be determined
+yes,cannot be determined
+no,no
+yes,cannot be determined
+yes,yes
+no,yes
+yes,cannot be determined
+yes,yes
+no,yes
+yes,cannot be determined
+yes,yes
+no,yes
+yes,cannot be determined
+yes,yes
+no,yes
+yes,cannot be determined
+yes,yes
+no,no
+yes,no
+yes,yes
+no,yes
+yes,no
+yes,yes
+no,yes
+yes,no
+yes,yes
+no,yes
+yes,no
+yes,cannot be determined
+no,cannot be determined
+yes,cannot be determined

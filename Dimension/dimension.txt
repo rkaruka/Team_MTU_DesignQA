@@ -1,0 +1,4 @@
+DesignQA Results
+Subset: Dimension
+Num Questions: 60
+ACC: 0.266667
