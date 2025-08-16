@@ -7,3 +7,6 @@ rouge
 nltk
 pandas
 numpy
+nltk
+rouge
+
