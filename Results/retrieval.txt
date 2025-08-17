@@ -1,4 +1,1 @@
-DesignQA Results
-Subset: Retrieval
-Num Questions: 1192
 F1: 0.924753
