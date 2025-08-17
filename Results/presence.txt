@@ -1,0 +1,4 @@
+DesignQA Results
+Subset: Presence
+Num Questions: 62
+ACC: 0.548387
