@@ -1,4 +1,1 @@
-DesignQA Results
-Subset: Compilation
-F1: 0.443195
 Num Questions: 30
