@@ -1,0 +1,4 @@
+DesignQA Results
+Subset: Definition
+Num Questions: 31
+F1 (BoC ↑): 0.084485
