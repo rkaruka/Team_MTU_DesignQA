@@ -1,0 +1,32 @@
+image,pred,pred_norm,gt,gt_norm,correct
+1.jpg,endplates,endplates,pedal assembly,pedal assembly,False
+2.jpg,endplates,endplates,pedal assembly,pedal assembly,False
+3.jpg,front wing,front wing,front wing,front wing,True
+4.jpg,front wing,front wing,front wing,front wing,True
+5.jpg,front wing,front wing,front wing,front wing,True
+6.jpg,front wing,front wing,front wing,front wing,True
+7.jpg,front wing,front wing,front wing,front wing,True
+8.jpg,brakes,brakes,brakes,brakes,True
+9.jpg,front wing,front wing,front wing,front wing,True
+10.jpg,front wing,front wing,steering wheel,steering wheel,False
+11.jpg,uprights,uprights,uprights,uprights,True
+12.jpg,steering wheel,steering wheel,steering wheel,steering wheel,True
+13.jpg,endplates,endplates,wheel centers,wheel centers,False
+14.jpg,uprights,uprights,uprights,uprights,True
+15.jpg,AArm,AArm,AArm,AArm,True
+16.jpg,endplates,endplates,pedal assembly,pedal assembly,False
+17.jpg,endplates,endplates,pedal assembly,pedal assembly,False
+18.jpg,pedal assembly,pedal assembly,front wing,front wing,False
+19.jpg,steering wheel,steering wheel,steering wheel,steering wheel,True
+20.jpg,brakes,brakes,brakes,brakes,True
+21.jpg,endplates,endplates,chassis,chassis,False
+22.jpg,accumulator,accumulator,accumulator,accumulator,True
+23.jpg,brakes,brakes,brakes,brakes,True
+24.jpg,front wing,front wing,front wing,front wing,True
+25.jpg,endplates,endplates,chassis,chassis,False
+26.jpg,front wing,front wing,front wing,front wing,True
+27.jpg,front wing,front wing,front wing,front wing,True
+28.jpg,steering wheel,steering wheel,steering wheel,steering wheel,True
+29.jpg,brakes,brakes,brakes,brakes,True
+30.jpg,endplates,endplates,chassis,chassis,False
+31.jpg,brakes,brakes,brakes,brakes,True
